@@ -5,7 +5,7 @@ const axios = require('axios');
 const { enter, leave } = Stage
 const stage = new Stage()
 const rateLimit = require('telegraf-ratelimit');
-var bot_token = '5153893400:AAFNv5Bka_N9VpeUnocV_It6JOO_tnXCKzg'; //YOUR BOT TOKEN HERE
+var bot_token = '5211196274:AAGBweuwC839rhQHL-yRylFNpEeAh6pbpLI'; //YOUR BOT TOKEN HERE
 var bot_name = 'Cashloot2211bot'; // Bot Name
 const bot = new Telegraf(bot_token);
 let db;
@@ -44,7 +44,7 @@ stage.register(mid)
 const comment = new BaseScene('comment')
 stage.register(comment)
 var regex = new RegExp('.*')
-const admin_id = 1087657480;
+const admin_id = 5101807559;
 const admin_id2 = 1225460233;
 var mongo_url = 'mongodb+srv://zautekm:zautekm@cluster0.24mj6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'; // Your Mongo URL Here
 const buttonsLimit = {
